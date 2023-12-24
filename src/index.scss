@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.badge-type {
+  &-grass {
+    background-color: #59b959;
+  }
+  &-poison {
+    background-color: #d6a2e4;
+  }
+  &-normal {
+    background-color: #dcdcdc;
+  }
+  &-fire {
+    background-color: #ffb971;
+  }
+  &-water {
+    background-color: #8cc4e2;
+  }
+  &-electric {
+    background-color: #ffe662;
+  }
+  &-ice {
+    background-color: #8cf5e4;
+  }
+  &-fighting {
+    background-color: #da7589;
+  }
+  &-ground {
+    background-color: #e69a74;
+  }
+  &-flying {
+    background-color: #bbc9e4;
+  }
+  &-psychic {
+    background-color: #ffa5da;
+  }
+  &-bug {
+    background-color: #bae05f;
+  }
+  &-rock {
+    background-color: #c9bb8a;
+  }
+  &-ghost {
+    background-color: #8291e0;
+  }
+  &-dark {
+    background-color: #8e8c94;
+  }
+  &-dragon {
+    background-color: #88a2e8;
+  }
+  &-steel {
+    background-color: #9fb8b9;
+  }
+  &-fairy {
+    background-color: #fdb9e9;
+  }
+}
+
+.bg-type {
+  &-grass {
+    background-image: linear-gradient(to bottom right, #44d4b4, #14a05a);
+  }
+  &-poison {
+    background-image: linear-gradient(to bottom right, #791a92, #551266);
+  }
+  &-normal {
+    background-image: linear-gradient(to bottom right, #b5b5b5, #6d6d6d);
+  }
+  &-fire {
+    background-image: linear-gradient(to bottom right, #de8124, #9d5c19);
+  }
+  &-water {
+    background-image: linear-gradient(to bottom right, #3982aa, #285b77);
+  }
+  &-electric {
+    background-image: linear-gradient(to bottom right, #dcb911, #9a820c);
+  }
+  &-ice {
+    background-image: linear-gradient(to bottom right, #5ee0cb, #38867a);
+  }
+  &-fighting {
+    background-image: linear-gradient(to bottom right, #8c414f, #622e37);
+  }
+  &-ground {
+    background-image: linear-gradient(to bottom right, #92573b, #663d29);
+  }
+  &-flying {
+    background-image: linear-gradient(to bottom right, #8b9bbd, #616d84);
+  }
+  &-psychic {
+    background-image: linear-gradient(to bottom right, #895474, #603b51);
+  }
+  &-bug {
+    background-image: linear-gradient(to bottom right, #7a9832, #556a23);
+  }
+  &-rock {
+    background-image: linear-gradient(to bottom right, #81764c, #5a5335);
+  }
+  &-ghost {
+    background-image: linear-gradient(to bottom right, #444c75, #303552);
+  }
+  &-dark {
+    background-image: linear-gradient(to bottom right, #707073, #4e4e51);
+  }
+  &-dragon {
+    background-image: linear-gradient(to bottom right, #263866, #1b2747);
+  }
+  &-steel {
+    background-image: linear-gradient(to bottom right, #626c6d, #454c4c);
+  }
+  &-fairy {
+    background-image: linear-gradient(to bottom right, #d01d9c, #92146d);
+  }
+}
